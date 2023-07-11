@@ -19,6 +19,7 @@ export const Kontakt = () => {
           at kontakte mig på overstående mailadresse.
         </TextPurple>
         <TextPurple>
+          <br />
           <BoldSpan>Jeg ser frem til at høre fra dig.</BoldSpan>
         </TextPurple>
       </TextWrapper>

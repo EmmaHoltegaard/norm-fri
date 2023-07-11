@@ -4,6 +4,7 @@ import { ui } from 'reducers/ui'
 import styled, { css } from 'styled-components/macro';
 import triangle from 'svg/triangle.svg'
 import { InfoAccordionData } from './InfoAccordionData';
+// import InfoAccordionData from './InfoAccordionDataTwo.json';
 import { TextWhite, Header2 } from '../GlobalStyles'
 
 export const InfoAccordion = () => {

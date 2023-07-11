@@ -33,8 +33,8 @@ const SectionWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  /* min-height: 85vh; */
-  margin: 80px auto;
+  min-height: 70vh;
+  /* margin: 80px auto; */
   animation: fadeIn 0.5s;
   @keyframes fadeIn {
   0% { opacity: 0; }

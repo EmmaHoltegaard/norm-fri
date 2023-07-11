@@ -14,7 +14,10 @@ export const Uddannelse = () => {
           <Header1>Uddannelse</Header1>
           {UddannelseData.map((item) => (
             <Experience key={item.id}>
-              <BoldSpan>{item.description} </BoldSpan>
+              <BoldSpan>{item.title} </BoldSpan>
+              <br />
+              {item.description}
+              {/* HOW SHOULD THIS BE STYLED?? */}
               <br />
               {item.year}, {item.source}
             </Experience>
@@ -24,7 +27,7 @@ export const Uddannelse = () => {
           <Header1>Kurser</Header1>
           {KurserData.map((item) => (
             <Experience key={item.id}>
-              <BoldSpan>{item.description}</BoldSpan> » {item.source}
+              <BoldSpan>{item.title}</BoldSpan> » {item.source}
             </Experience>
           ))}
         </ExperienceWrapper>

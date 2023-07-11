@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro'
-import { Header1, TextPurple } from './GlobalStyles'
+import { Header1, BoldSpan, TextPurple } from './GlobalStyles'
 
 export const MinTilgang = () => {
   return (
@@ -8,30 +8,22 @@ export const MinTilgang = () => {
       <TextWrapper>
         <Header1>Min tilgang</Header1>
         <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <BoldSpan>
+            Jeg har særlig viden indenfor:
+          </BoldSpan>
+
         </Text>
-        <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </Text>
+        <ul>
+          <li><Text>Normkritik</Text></li>
+          <li><Text>Minioritetsstress</Text></li>
+          <li><Text>LQBTQIA+</Text></li>
+          <li><Text>Køn, krop og seksualitet</Text></li>
+          <li><Text>Kropspositivisme</Text></li>
+          <li><Text>Selvmordstanker</Text></li>
+          <li><Text>Sygdomsaangst</Text></li>
+          <li><Text>Angst</Text></li>
+          <li><Text>ADHD</Text></li>
+        </ul>
       </TextWrapper>
     </SectionWrapper>
   )

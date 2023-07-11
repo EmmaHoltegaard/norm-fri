@@ -1,32 +1,32 @@
 export const KurserData = [
   {
     id: 1,
-    description: 'Tegneterapi',
-    source: 'Benedikte Bonnevhie'
+    title: 'Tegneterapi',
+    source: 'Benedikte Bonnevie'
   },
   {
     id: 2,
-    description: '(Trans)kon, krop og sprog',
+    title: '(Trans)køn, krop og sprog',
     source: 'Alex Delamare'
   },
   {
     id: 3,
-    description: 'OCD og sygdomsansgt',
+    title: 'OCD og sygdomsansgt',
     source: 'cand.psych.aut. Stine Næsted'
   },
   {
     id: 4,
-    description: 'Grundlæggende sexologi',
+    title: 'Grundlæggende sexologi',
     source: 'AIDS-Fondet'
   },
   {
     id: 5,
-    description: 'Normkritik',
+    title: 'Normkritik',
     source: 'AIDS-Fondet'
   },
   {
     id: 6,
-    description: 'Racialized Trauma',
+    title: 'Racialized Trauma',
     source: 'Cultural Somatics Institute'
   }
 ]

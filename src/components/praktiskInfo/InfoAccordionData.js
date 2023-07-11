@@ -2,7 +2,7 @@ export const InfoAccordionData = [
   {
     id: 1,
     topic: 'Ydelser',
-    text: 'Jeg tilbyder individuel samtaleterapi til alle voksne og unge over 15 år. Individuel terapi består af…. (Information mangler her) I visse tilfælde faciliterer jeg også gerne en dialog mellem flere parter, hvis du/I er interesserede i parterapi, familieterapi, eller andet. Du og din(e) partner(e) kan kontakte mig direkte på mail med nærmere informationer om jeres situation.'
+    text: 'Jeg tilbyder individuel samtaleterapi til alle voksne og unge over 15 år. Individuel terapi består af…. (Information mangler her). I visse tilfælde faciliterer jeg også gerne en dialog mellem flere parter, hvis du/I er interesserede i parterapi, familieterapi, eller andet. Du og din(e) partner(e) kan kontakte mig direkte på mail med nærmere informationer om jeres situation.'
   },
   {
     id: 2,

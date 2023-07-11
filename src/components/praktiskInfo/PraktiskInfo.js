@@ -6,7 +6,7 @@ import { InfoAccordion } from './InfoAccordion';
 export const PraktiskInfo = () => {
   return (
     <SectionWrapper>
-      <Header1>Praktisk Info</Header1>
+      <Header1>Praktisk info</Header1>
       <InfoAccordion />
     </SectionWrapper>
   )
