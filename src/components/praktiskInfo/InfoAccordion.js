@@ -32,7 +32,10 @@ export const InfoAccordion = () => {
           </TopicWrapper>
           {item.id === activeTopicId && (
             <TextWrapper>
-              <TextWhite>{item.text}</TextWhite>
+              <Text>{item.p1}</Text>
+              <Text>{item.p2}</Text>
+              <Text>{item.p3}</Text>
+              <Text>{item.p4}</Text>
             </TextWrapper>
           )}
         </AccordionSectionWrapper>
@@ -62,6 +65,9 @@ const TopicWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  @media (max-width: 550px) {
+    padding: 15px 25px 15px 25px;
+  }
 `
 
 const TextWrapper = styled.div`
@@ -83,4 +89,8 @@ transition: 0.5s;
 ${(props) => props.isActive && css`
   transform: scale(1.2) rotate(40deg);
 `}
+`
+
+const Text = styled(TextWhite)`
+  margin-top: 15px;
 `
