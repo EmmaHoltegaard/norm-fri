@@ -20,6 +20,7 @@ const SectionWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 50px;
   animation: fadeIn 0.5s;
     @keyframes fadeIn {
     0% { opacity: 0; }

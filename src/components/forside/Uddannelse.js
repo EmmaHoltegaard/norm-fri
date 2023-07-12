@@ -13,14 +13,12 @@ export const Uddannelse = () => {
         <ExperienceWrapper>
           <Header1>Uddannelse</Header1>
           {UddannelseData.map((item) => (
-            <Experience key={item.id}>
+            <Education key={item.id}>
               <BoldSpan>{item.title} </BoldSpan>
-              <br />
-              {item.description}
+              <p>{item.description}</p>
               {/* HOW SHOULD THIS BE STYLED?? */}
-              <br />
               {item.year}, {item.source}
-            </Experience>
+            </Education>
           ))}
         </ExperienceWrapper>
         <ExperienceWrapper>
@@ -44,6 +42,7 @@ const SectionWrapper = styled.div`
   justify-content: center;
   /* min-height: 100vh; */
   background-color: var(--pink);
+  padding-bottom: 30px;
 `
 
 const Image = styled.img`
@@ -71,6 +70,12 @@ const ExperienceWrapper = styled.div`
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 30px;
+`
+
+const Education = styled(TextPurple)`
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 `
 
 const Experience = styled(TextPurple)`

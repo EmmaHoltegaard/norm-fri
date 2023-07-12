@@ -1,10 +1,18 @@
 import styled from 'styled-components/macro'
 
+export const PageWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+`
+
 export const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30px;
 `
 
 export const Title = styled.h1`
