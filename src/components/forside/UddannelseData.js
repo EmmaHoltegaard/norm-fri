@@ -2,8 +2,7 @@ export const UddannelseData = [
   {
     id: 1,
     year: 2023,
-    title: 'Certificeret terapeut',
-    description: 'Eksistentiel/humanistisk integrativ psykoterapi',
+    title: 'Certificeret terapeut i integrativ psykoterapi',
     source: 'Life Academy'
   },
   {

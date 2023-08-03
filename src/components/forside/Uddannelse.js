@@ -15,8 +15,6 @@ export const Uddannelse = () => {
           {UddannelseData.map((item) => (
             <Education key={item.id}>
               <BoldSpan>{item.title} </BoldSpan>
-              <p>{item.description}</p>
-              {/* HOW SHOULD THIS BE STYLED?? */}
               {item.year}, {item.source}
             </Education>
           ))}
