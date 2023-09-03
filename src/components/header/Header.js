@@ -4,10 +4,11 @@ import styled from 'styled-components/macro';
 import { ui } from 'reducers/ui'
 // import { cart } from 'reducers/cart'
 import { Link } from 'react-router-dom';
+import logo from 'images/logo.png'
 import { Navbar } from './Navbar';
 import { HamburgerIcon } from './HamburgerIcon';
 import { HamburgerMenu } from './HamburgerMenu';
-import { Title } from '../GlobalStyles'
+// import { Title } from '../GlobalStyles'
 
 export const Header = () => {
   const menuIsActive = useSelector((state) => state.ui.menuIsActive);
@@ -22,7 +23,7 @@ export const Header = () => {
       <HeaderWrapper>
         <HeaderInnerWrapper>
           <LeftWrapper>
-            <StyledLink to="/"><Title>Normfri <br /> terapi</Title></StyledLink>
+            <StyledLink to="/"><Logo src={logo} Alt="Normfri Terapi" /></StyledLink>
           </LeftWrapper>
           <RightWrapper>
             <LargeScreenNav>
@@ -89,4 +90,8 @@ const SmallScreenNav = styled.div`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
+`
+
+const Logo = styled.img`
+height: 4rem; 
 `

@@ -15,13 +15,13 @@ export const SectionWrapper = styled.section`
   padding-bottom: 30px;
 `
 
-export const Title = styled.h1`
-  font-family: 'Courier Prime', 'Courier New', monospace;
-  font-weight: 700;
-  font-size: 1.625rem;
-  line-height: 2rem;
-  color: var(--purple);
-`
+// export const Title = styled.h1`
+//   font-family: 'Courier Prime', 'Courier New', monospace;
+//   font-weight: 700;
+//   font-size: 1.625rem;
+//   line-height: 2rem;
+//   color: var(--purple);
+// `
 
 export const Header1 = styled.h2`
   font-family: 'Courier Prime', 'Courier New', monospace;

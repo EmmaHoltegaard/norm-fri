@@ -12,6 +12,7 @@ import { Forside } from './components/forside/Forside';
 import { NotFound } from './components/NotFound';
 import { Header } from './components/header/Header';
 import { Footer } from './components/Footer'
+import { Ydelser } from './components/Ydelser'
 
 const reducer = combineReducers({
   ui: ui.reducer
@@ -31,6 +32,7 @@ export const App = () => {
             <Route path="/praktiskInfo" element={<PraktiskInfo />} />
             <Route path="/kontakt" element={<Kontakt />} />
             <Route path="/404" element={<NotFound />} />
+            <Route path="/ydelser" element={<Ydelser />} />
             <Route path="*" element={<Navigate to="/404" />} />
           </Routes>
           <Footer />

@@ -6,6 +6,7 @@ export const Navbar = () => {
   return (
     <NavOptions>
       <div><StyledNavLink to="/">Forside</StyledNavLink></div>
+      <div><StyledNavLink to="/ydelser">Jeg tilbyder</StyledNavLink></div>
       <div><StyledNavLink to="/praktiskInfo">Praktisk info</StyledNavLink></div>
       <div><StyledNavLink to="/minTilgang">Min tilgang</StyledNavLink></div>
       <div><StyledNavLink to="/kontakt">Kontakt mig</StyledNavLink></div>
