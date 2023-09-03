@@ -15,6 +15,8 @@ const SectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  min-height: 70vh;
   animation: fadeIn 0.5s;
   padding-bottom: 40px;
     @keyframes fadeIn {

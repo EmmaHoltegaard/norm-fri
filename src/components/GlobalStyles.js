@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 export const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   min-height: 100vh;
 `
 

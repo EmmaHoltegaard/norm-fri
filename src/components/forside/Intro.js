@@ -37,10 +37,10 @@ const SectionWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: var(--purple);
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 180px;
+  padding-bottom: 120px;
 `
 
 const Header1White = styled(Header1)`

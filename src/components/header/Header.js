@@ -44,7 +44,7 @@ export const Header = () => {
 
 // styled components
 const HeaderWrapper = styled.header`
-  height: 10rem;
+  height: 11rem;
   display: flex;
   justify-content: center;
   padding-left: 50px;

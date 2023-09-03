@@ -18,7 +18,8 @@ const SectionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  min-height: 65vh;
   margin-top: 50px;
   margin-bottom: 50px;
   animation: fadeIn 0.5s;
