@@ -24,16 +24,17 @@ export const SectionWrapper = styled.section`
 // `
 
 export const Header1 = styled.h2`
-  font-family: 'Courier Prime', 'Courier New', monospace;
+  font-family: 'M PLUS Rounded 1c','Courier Prime', 'Courier New', monospace;
   color: var(--purple);
   font-size: 2.375rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
+  line-height: 3rem;
 `
 
 export const Header2 = styled.h3`
-  font-family: 'Courier Prime', 'Courier New', monospace;
+  font-family: 'M PLUS Rounded 1c', 'Courier Prime', 'Courier New', monospace;
   color: var(--purple);
   font-size: 1.375rem;
   font-weight: 700;

@@ -13,9 +13,11 @@ export const NavDropDown = () => {
   return (
     <NavOptions>
       <div><StyledNavLink to="/" onClick={handleNavLinkClick}>Forside</StyledNavLink></div>
+      <div><StyledNavLink to="/ydelser">Jeg tilbyder</StyledNavLink></div>
       <div><StyledNavLink to="/praktiskInfo" onClick={handleNavLinkClick}>Praktisk info</StyledNavLink></div>
       <div><StyledNavLink to="/minTilgang" onClick={handleNavLinkClick}>Min tilgang</StyledNavLink></div>
       <div><StyledNavLink to="/kontakt" onClick={handleNavLinkClick}>Kontakt mig</StyledNavLink></div>
+      <div><StyledNavLink to="/english" onClick={handleNavLinkClick}>In English</StyledNavLink></div>
     </NavOptions>
   )
 }

@@ -153,5 +153,5 @@ const Button = styled(StyledButton)`
 `
 
 const StyledSpan = styled.span`
-  font-size: 2rem;
+  font-size: 2.2rem;
 `

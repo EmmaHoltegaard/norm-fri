@@ -10,6 +10,7 @@ export const Navbar = () => {
       <div><StyledNavLink to="/praktiskInfo">Praktisk info</StyledNavLink></div>
       <div><StyledNavLink to="/minTilgang">Min tilgang</StyledNavLink></div>
       <div><StyledNavLink to="/kontakt">Kontakt mig</StyledNavLink></div>
+      <div><StyledNavLink to="/english">In English</StyledNavLink></div>
     </NavOptions>
   )
 }
@@ -23,7 +24,7 @@ const NavOptions = styled.nav`
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-    gap: 2rem;
+    gap: 2.1rem;
     padding-top: 10px;
     text-align: center;
   }
@@ -31,7 +32,7 @@ const NavOptions = styled.nav`
 
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
-  font-family: 'Courier Prime', 'Courier New', monospace;
+  font-family: 'M PLUS Rounded 1c', 'Courier Prime', 'Courier New', monospace;
   font-weight: 700;
   color: var(--purple);
   font-size: 1.125rem;

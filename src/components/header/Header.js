@@ -74,7 +74,7 @@ const LargeScreenNav = styled.div`
   display: none;
   @media (min-width: 1024px) {
     display: flex;
-    width: 525px;
+    width: 630px;
     margin-right: 10px;
   }
 `
@@ -93,5 +93,5 @@ const StyledLink = styled(Link)`
 `
 
 const Logo = styled.img`
-height: 4rem; 
+height: 4.3rem; 
 `
