@@ -93,5 +93,11 @@ const StyledLink = styled(Link)`
 `
 
 const Logo = styled.img`
-height: 4.3rem; 
+height: 3.9rem; 
+@media (max-width: 619px) {
+  height: 3.5rem;
+}
+@media (max-width: 400px) {
+  height: 3.1rem;
+}
 `

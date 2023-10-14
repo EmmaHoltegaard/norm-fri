@@ -6,7 +6,7 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit'
 import { MinTilgang } from 'components/MinTilgang';
 import { Kontakt } from 'components/contact/Kontakt';
 import { PageWrapper } from 'components/GlobalStyles';
-import { English } from './components/English';
+import { English } from 'components/English';
 import { PraktiskInfo } from './components/praktiskInfo/PraktiskInfo'
 import { ui } from './reducers/ui'
 import { Forside } from './components/forside/Forside';

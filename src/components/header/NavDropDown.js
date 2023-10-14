@@ -51,14 +51,14 @@ const NavOptions = styled.nav`
 
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
-  font-family: 'Courier Prime', 'Courier New', monospace;
+  font-family: 'M PLUS Rounded 1c', 'Courier Prime', 'Courier New', monospace;
   font-weight: 700;
   color: var(--white);
   font-size: 1.125rem;
   letter-spacing: 1.3px;
   background-color: var(--purple);
-  padding: 0.5em;
-  border-bottom: 1px var(--white) solid;
+  padding: 0.8em;
+  //border-bottom: 1px var(--lightPurple) solid;
   width: 100vw;
   margin: auto;
   display: flex;
