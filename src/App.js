@@ -7,6 +7,7 @@ import { MinTilgang } from 'components/MinTilgang';
 import { Kontakt } from 'components/contact/Kontakt';
 import { PageWrapper } from 'components/GlobalStyles';
 import { English } from 'components/English';
+import { Grupper } from 'components/Grupper';
 import { PraktiskInfo } from './components/praktiskInfo/PraktiskInfo'
 import { ui } from './reducers/ui'
 import { Forside } from './components/forside/Forside';
@@ -35,6 +36,7 @@ export const App = () => {
             <Route path="/404" element={<NotFound />} />
             <Route path="/ydelser" element={<Ydelser />} />
             <Route path="/english" element={<English />} />
+            <Route path="/ydelser/grupper" element={<Grupper />} />
             <Route path="*" element={<Navigate to="/404" />} />
           </Routes>
           <Footer />

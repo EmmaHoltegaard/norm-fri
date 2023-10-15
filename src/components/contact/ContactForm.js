@@ -86,7 +86,7 @@ const FormWrapper = styled.div`
 const StyledLabel = styled.label`
   display: flex;
   flex-direction: column;
-  font-family: 'Courier Prime', 'Courier New', monospace;
+  font-family: 'M PLUS Rounded 1c', 'Courier Prime', 'Courier New', monospace;
   color: var(--purple);
   font-size: 1.125rem;
   font-weight: 700;

@@ -2,13 +2,14 @@ import React from 'react';
 import styled from 'styled-components/macro'
 import { Player } from '@lottiefiles/react-lottie-player'
 import animationData from 'lotties/not-found'
-import { TextPurple, Header1, BoldSpan } from './GlobalStyles';
+import { Link } from 'react-router-dom';
+import { TextPurple, Header1, StyledButton } from './GlobalStyles';
 
-export const English = () => {
+export const Grupper = () => {
   return (
     <SectionWrapper>
+      <Header1>Grupper</Header1>
       <ContentWrapper>
-        <Header1>In English</Header1>
         <PlayerWrapper>
           <Player
             autoplay
@@ -19,19 +20,10 @@ export const English = () => {
             style={{ height: '100%', width: '100%' }} />
         </PlayerWrapper>
         <TextPurple>
-          This page is under construction - stay tuned for more in-depth information.
+            Denne side er underopbygning<br />- der kommer snart mere information.
         </TextPurple>
-        <TextPurple>
-          In the meantime, you are welcome to contact
-          me on <BoldSpan>normfri.terapi@gmail.com</BoldSpan> if
-          you are interested in more information about therapy sessions in English.
-        </TextPurple>
-        <TextPurple>
-          I look forward to hearing from you!
-        </TextPurple>
-
+        <Button><StyledLink to="/ydelser">Tilbage til ydelser</StyledLink></Button>
       </ContentWrapper>
-
     </SectionWrapper>
   )
 }
@@ -67,4 +59,21 @@ const ContentWrapper = styled.div`
 const PlayerWrapper = styled.div`
 width: 260px;
 margin: auto;
+`
+
+const Button = styled(StyledButton)`
+  background-color: var(--lightPurple);
+  width: fit-content;
+  padding: 0.6em 1.2em;
+  border-radius: 25px;
+  font-size: 1.125rem;
+  margin: 25px auto 15px auto;
+  &:Hover{
+    background-color: var(--purple);
+  }
+`
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: white;
 `

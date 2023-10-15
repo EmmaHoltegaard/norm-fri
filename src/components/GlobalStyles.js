@@ -46,6 +46,7 @@ export const TextPurple = styled.p`
   line-height: 1.875rem;
   color: var(--purple);
   margin: 0 3px;
+
 `
 
 export const TextWhite = styled(TextPurple)`

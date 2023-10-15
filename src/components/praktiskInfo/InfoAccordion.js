@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { ui } from 'reducers/ui'
 import styled, { css } from 'styled-components/macro';
 import triangle from 'svg/triangle.svg'
+import { Link } from 'react-router-dom';
 import { InfoAccordionData } from './InfoAccordionData';
 // import InfoAccordionData from './InfoAccordionDataTwo.json';
 import { TextWhite, Header2 } from '../GlobalStyles'
@@ -19,27 +20,54 @@ export const InfoAccordion = () => {
   }
   return (
     <AccordionWrapper>
-      {InfoAccordionData.map((item) => (
-        <AccordionSectionWrapper key={item.id}>
-          <TopicWrapper
-            isActive={item.id === activeTopicId}
-            onClick={() => onTopicClick(item.id)}>
-            <Header2>{item.topic}</Header2>
-            <ActiveIcon
-              src={triangle}
-              alt="triangle"
-              isActive={item.id === activeTopicId} />
-          </TopicWrapper>
-          {item.id === activeTopicId && (
-            <TextWrapper>
-              <Text>{item.p1}</Text>
-              <Text>{item.p2}</Text>
-              <Text>{item.p3}</Text>
-              <Text>{item.p4}</Text>
-            </TextWrapper>
-          )}
-        </AccordionSectionWrapper>
-      ))}
+      {InfoAccordionData.map((item) => {
+        if (item.id === 4) {
+          return (
+            <AccordionSectionWrapper key={item.id}>
+              <TopicWrapper
+                isActive={item.id === activeTopicId}
+                onClick={() => onTopicClick(item.id)}>
+                <Header2>{item.topic}</Header2>
+                <ActiveIcon
+                  src={triangle}
+                  alt="triangle"
+                  isActive={item.id === activeTopicId} />
+              </TopicWrapper>
+              {item.id === activeTopicId && (
+                <TextWrapper>
+                  <Text>
+                    {item.p1} <StyledLink to="/kontakt">{item.p2}</StyledLink> {item.p3}
+                  </Text>
+                  <Text>{item.p4}</Text>
+                </TextWrapper>
+              )}
+            </AccordionSectionWrapper>
+          );
+        } else {
+          return (
+            <AccordionSectionWrapper key={item.id}>
+              <TopicWrapper
+                isActive={item.id === activeTopicId}
+                onClick={() => onTopicClick(item.id)}>
+                <Header2>{item.topic}</Header2>
+                <ActiveIcon
+                  src={triangle}
+                  alt="triangle"
+                  isActive={item.id === activeTopicId} />
+              </TopicWrapper>
+              {item.id === activeTopicId && (
+                <TextWrapper>
+                  <Text>{item.p1}</Text>
+                  <Text>{item.p2}</Text>
+                  <Text>{item.p3}</Text>
+                  <Text>{item.p4}</Text>
+                  <Text>{item.p5}</Text>
+                </TextWrapper>
+              )}
+            </AccordionSectionWrapper>
+          );
+        }
+      })}
     </AccordionWrapper>
   );
 };
@@ -93,4 +121,8 @@ ${(props) => props.isActive && css`
 
 const Text = styled(TextWhite)`
   margin-top: 15px;
+`
+
+const StyledLink = styled(Link)`
+  color: white;
 `

@@ -146,7 +146,7 @@ const Button = styled(StyledButton)`
   padding: 0.6em 1.2em;
   border-radius: 25px;
   font-size: 1.125rem;
-  margin: 20px auto 10px auto;
+  margin: 25px auto 15px auto;
   &:Hover{
     background-color: var(--purple);
   }

@@ -20,7 +20,7 @@ export const Kontakt = () => {
         </TextPurple>
         <TextPurple>
           <br />
-          <BoldSpan>Jeg ser frem til at høre fra dig.</BoldSpan>
+          <Centered><BoldSpan>Jeg ser frem til at høre fra dig.</BoldSpan></Centered>
         </TextPurple>
       </TextWrapper>
       <ContactForm />
@@ -48,6 +48,12 @@ gap: 10px;
 width: 50%;
 min-width: 300px;
 max-width: 575px;
-text-align: center;
+//text-align: center;
 margin: 50px auto;
+text-align: justify;
+hyphens: auto;
+`
+
+const Centered = styled.div`
+  text-align: center;
 `
