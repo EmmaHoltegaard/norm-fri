@@ -13,12 +13,12 @@ export const Footer = () => {
           <FooterText>normfri.terapi@gmail.com</FooterText>
         </LeftInnerWrapper>
         <MiddleInnerWrapper>
-          <Link href="https://www.linkedin.com/in/rebekkapi/">
+          <Link href="https://www.linkedin.com/in/rebekkapi/" target="_blank" rel="noopener noreferrer">
             <Icon src={LinkedInIcon} alt="LinkedIn" />
           </Link>
         </MiddleInnerWrapper>
         <RightInnerWrapper>
-          <FooterText>Hjemmeside af <Link href="https://www.linkedin.com/in/emmaholtegaard/">Emma Holtegaard</Link></FooterText>
+          <FooterText>Hjemmeside af <Link href="https://www.linkedin.com/in/emmaholtegaard/" target="_blank" rel="noopener noreferrer">Emma Holtegaard</Link></FooterText>
         </RightInnerWrapper>
       </InnerWrapper>
     </FooterWrapper>
