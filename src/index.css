@@ -13,7 +13,8 @@
   --white: #FFFFFF;
   --lightBlue: #CFEDEE;
   --pink: #EAD6F2;
-  --transparentWhite: rgba(255, 255, 255, 0.2)
+  --transparentWhite: rgba(255, 255, 255, 0.2);
+  --transparentPurple: rgba(180, 175, 242, 0.3);
 }
 
 

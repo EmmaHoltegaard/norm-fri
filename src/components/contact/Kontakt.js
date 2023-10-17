@@ -47,10 +47,10 @@ flex-direction: column;
 gap: 10px;
 width: 50%;
 min-width: 300px;
-max-width: 575px;
-//text-align: center;
+max-width: 560px;
+text-align: center;
 margin: 50px auto;
-text-align: justify;
+// text-align: justify; makes weirds gaps in text, because of email-address
 hyphens: auto;
 `
 

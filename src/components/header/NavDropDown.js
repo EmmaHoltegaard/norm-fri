@@ -31,11 +31,13 @@ const NavOptions = styled.nav`
   justify-content: space-between;
   padding-top: 10px;
   text-align: center;
-  animation: growDown 300ms ease-in-out forwards;
+  // animation: growDown 300ms ease-in-out forwards;
+  animation: fadeIn 0.5s; 
   transform-origin: top center;
   @media (min-width: 1024px) {
     display: none;
   }
+  /*
   @keyframes growDown {
     0% {
         transform: scaleY(0)
@@ -47,16 +49,22 @@ const NavOptions = styled.nav`
         transform: scaleY(1)
     }
   }
+  */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 `
 
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   font-family: 'M PLUS Rounded 1c', 'Courier Prime', 'Courier New', monospace;
   font-weight: 700;
-  color: var(--white);
+  color: var(--purple);
   font-size: 1.125rem;
   letter-spacing: 1.3px;
-  background-color: var(--purple);
+  // background-color: var(--purple);
+  background: var(--transparentWhite);
   padding: 0.8em;
   //border-bottom: 1px var(--lightPurple) solid;
   width: 100vw;
@@ -66,7 +74,7 @@ const StyledNavLink = styled(NavLink)`
   justify-content: center;
   &.active {
     text-decoration: underline;
-    background-color: var(--lightPurple)
+    background-color: var(--transparentPurple)
   }
   &:hover {
     background-color: var(--lightPurple)

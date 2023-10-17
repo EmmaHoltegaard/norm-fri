@@ -29,10 +29,10 @@ export const Ydelser = () => {
         <TextPurple>
         Jeg kører løbende nye gruppeforløb, hvor du fast vil mødes med en
         mindre gruppe af andre, der tilhører samme målgruppe som dig.
-        Til hver mødegang vil vi i fællesskab dele erfaringer og oplevelser
+        Til hver møde&shy;gang vil vi i fællesskab dele erfaringer og oplevelser
         i et trygt rum, som regel med et specifikt tema for dagen.
-        Jeg vil løbende tilbyde skiftende typer af gruppeforløb for
-        forskellige målgrupper, så kontakt mig endelig hvis du har
+        Jeg vil løbende tilbyde skiftende typer af gruppe&shy;forløb for
+        forskellige mål&shy;grupper, så kontakt mig endelig hvis du har
         særlige ønsker til en ny type gruppe.
         </TextPurple>
         <TextPurple>

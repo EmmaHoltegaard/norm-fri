@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
+import ScrollToTop from 'components/ScrollToTop';
 // components & reducers
 import { MinTilgang } from 'components/MinTilgang';
 import { Kontakt } from 'components/contact/Kontakt';
@@ -27,6 +28,7 @@ export const App = () => {
     <PageWrapper>
       <Provider store={store}>
         <BrowserRouter>
+          <ScrollToTop />
           <Header />
           <Routes>
             <Route path="/" element={<Forside />} />

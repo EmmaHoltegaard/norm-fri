@@ -55,7 +55,7 @@ const ContentWrapper = styled.div`
   margin: 10px auto 50px auto;
   width: 70%;
   min-width: 320px;
-  max-width: 600px;
+  max-width: 500px;
   padding: 0 8px;
   display: flex;
   flex-direction: column;

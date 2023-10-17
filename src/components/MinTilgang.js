@@ -22,15 +22,15 @@ export const MinTilgang = () => {
         </Bridge>
       </TextWrapper>
       <TextWrapper>
-        <Header2>Normkritisk</Header2>
+        <CenteredHeader>Normkritisk</CenteredHeader>
         <Text>
             Normer er uskrevne regler eller værdier, der påvirker os alle,
             ofte uden vi er opmærksomme på det. Normer er i sig selv ikke skadelige,
             men kan gå hen og blive det, når vi bliver fastlåst i særlige
             forventninger og føler os forkerte, når vi ikke lever op til disse uskrevne regler.
-            Det kan især være smertefuldt for minoriserede personer, når samfundets normative
-            idéer internaliseres og fører til usunde og uhensigtsmæssige måder at
-            relatere til sig selv på.
+            Det kan især være smerte&shy;fuldt for minori&shy;serede personer,
+            når samfundets normative idéer inter&shy;naliseres og fører
+            til usunde og uhensigts&shy;mæssige måder at relatere til sig selv på.
         </Text>
         <Text>
             Normkritik er for alle, og du behøver ikke tilhøre en marginaliseret
@@ -44,7 +44,7 @@ export const MinTilgang = () => {
         </Text>
       </TextWrapper>
       <TextWrapper>
-        <Header2>Inkluderende</Header2>
+        <CenteredHeader>Inkluderende</CenteredHeader>
         <Text>
           Der er plads til dig i min praksis uanset hvem du er og hvordan du lever dit liv.
           Når du går til en fagperson, fortjener du at føle dig sikker i,
@@ -52,18 +52,20 @@ export const MinTilgang = () => {
           eller forsvare den, du er.
         </Text>
         <Text>
-          Jeg har særlig viden, forståelse og erfaring med områder såsom minoritetsstress,
-          neurodiversitet, samt køn, krop og seksualitet, og min praksis er queer-venlig,
-          intersektionel, fællesskabsorienteret, m.m., og opererer
-          ud fra det menneskesyn, at mangfoldighed er en gave.
+          Jeg har særlig viden, forståelse og erfaring med områder såsom mi&shy;noritets&shy;stress,
+          neuro&shy;diversitet, samt køn, krop og seksualitet, og min praksis er queer-&shy;venlig,
+          inter&shy;sektionel, fælles&shy;skabs&shy;orienteret, m.m., og opererer
+          ud fra det menneske&shy;syn, at mang&shy;foldighed er en gave.
         </Text>
       </TextWrapper>
       <TextWrapper>
-        <Header2>Integrativ</Header2>
+        <CenteredHeader>Integrativ</CenteredHeader>
         <Text>
-          Mit faglige udgangspunkt er i eksistentiel/humanistisk psykologi og dennes menneskesyn.
-          Det betyder, at jeg har fokus på menneskets eksistentielle vilkår og store spørgsmål,
-          og ikke mindst vigtigheden af at opleve mening i vores liv og lære at lytte til vores
+          Mit faglige udgangs&shy;punkt er i eksisten&shy;tiel/&shy;human&shy;istisk psykologi
+          og dennes menneske&shy;syn.
+          Det betyder, at jeg har fokus på menneskets eksisten&shy;tielle vilkår
+          og store spørgs&shy;mål,
+          og ikke mindst vigtig&shy;heden af at opleve mening i vores liv og lære at lytte til vores
           egen krop, behov og værdier.
         </Text>
         <Text>
@@ -76,7 +78,7 @@ export const MinTilgang = () => {
         </Text>
       </TextWrapper>
       <TextWrapper>
-        <Header2>Klient-centreret</Header2>
+        <CenteredHeader>Klient-centreret</CenteredHeader>
         <Text>
           Mit udgangspunkt i vores møde er, at du først og fremmest er den største
           ekspert på dit eget liv. Vores samtaler er derfor en ligeværdig dialog
@@ -96,7 +98,7 @@ export const MinTilgang = () => {
         </Text>
       </TextWrapper>
       <TextWrapper>
-        <Header2>Erfaringsbaseret</Header2>
+        <CenteredHeader>Erfaringsbaseret</CenteredHeader>
         <Text>
           Det er vigtigt for mig, at min faglighed har et videnskabeligt fundament,
           og jeg fordyber mig løbende i evidensbaseret forskning.
@@ -145,8 +147,13 @@ const TextWrapper = styled.div`
   gap: 20px;
 `
 
+const CenteredHeader = styled(Header2)`
+  text-align: center;
+`
+
 const Text = styled(TextPurple)`
   text-align: justify;
+  hyphens: auto;
 `
 
 const Bridge = styled(TextPurple)`
