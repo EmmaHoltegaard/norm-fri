@@ -4,7 +4,7 @@ export const InfoAccordionData = [
     topic: 'Priser og vilkår',
     p1: 'Individuel samtaleterapi » 50 min » 650 kr. ',
     p2: 'Par/gruppeterapi » 60 min » 800 kr.',
-    p3: 'Gruppeforløb » 8 mødegange á 90 min » 1500 kr. i alt.',
+    p3: 'Gruppeforløb » 8 mødegange á 90 min » 1600 kr. i alt.',
     p4: 'Betaling foregår kontant eller på mobilepay efter hver session. ',
     p5: 'Afbud er minimum 24 timer før og ellers betales fuld pris.'
   },

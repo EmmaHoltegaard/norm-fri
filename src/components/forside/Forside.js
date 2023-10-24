@@ -14,7 +14,7 @@ export const Forside = () => {
           <ContentWrapperTop>
             <Image src={head} alt="head" />
             <ContentTopText>
-              <HeaderTitle>Normfri terapi <br /><StyledSpan>/v Rebekka Pi</StyledSpan></HeaderTitle>
+              <HeaderTitle>Normfri terapi <br /><StyledSpan>v. Rebekka Pi</StyledSpan></HeaderTitle>
               <WelcomeText>Velkommen - dejligt du er her.</WelcomeText>
             </ContentTopText>
           </ContentWrapperTop>

@@ -71,7 +71,7 @@ export const MinTilgang = () => {
         <Text>
           At min psykoterapeutiske uddannelsesbaggrund er integrativ betyder,
           at jeg er undervist i en bred vifte af anerkendte terapeutiske metoder,
-          hvorfra jeg kan trække på forskellige metoder og værktøjer og tilpasse
+          hvorfra jeg kan trække på forskellige værktøjer og tilpasse
           terapien efter den enkelte. De forskellige metoder understøtter og
           supplerer hinanden til gavn for dig, og vi udforsker i fællesskab
           hvad der fungerer bedst og er mest givende for dig.
@@ -104,7 +104,7 @@ export const MinTilgang = () => {
           og jeg fordyber mig løbende i evidensbaseret forskning.
           Men i forgrunden er de levede erfaringer; mine klienters levede liv er ikke bare
           teoretiske tankeeksperimenter for mig, og jeg bruger
-          også mine egne erfaringer som minoriseretmenneske
+          også mine egne erfaringer som minoriseret menneske
           i mit arbejde. Min personlige oplevelse er, at dette også kan være en fordel for vores
           terapeutiske relation og din tryghed som klient. Når vi mødes i det terapeutiske rum,
           mødes vi jo også som mennesker, der kan spejle sig i hinanden, og det trygge fællesskab

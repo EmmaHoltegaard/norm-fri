@@ -11,7 +11,7 @@ export const KurserData = [
   },
   {
     id: 3,
-    title: 'OCD og sygdomsansgt',
+    title: 'OCD og sygdomsangst',
     source: 'cand.psych.aut. Stine Næsted'
   },
   {
