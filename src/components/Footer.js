@@ -10,7 +10,7 @@ export const Footer = () => {
       <InnerWrapper>
         <LeftInnerWrapper>
           <FooterText><BoldSpan>Normfri terapi v. Rebekka Pi</BoldSpan></FooterText>
-          <FooterText>normfri.terapi@gmail.com</FooterText>
+          <FooterText>normfriterapi@protonmail.com</FooterText>
         </LeftInnerWrapper>
         <MiddleInnerWrapper>
           <Link href="https://www.linkedin.com/in/rebekkapi/" target="_blank" rel="noopener noreferrer">

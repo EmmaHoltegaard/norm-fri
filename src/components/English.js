@@ -23,7 +23,7 @@ export const English = () => {
         </TextPurple>
         <TextPurple>
           In the meantime, you are welcome to contact
-          me on <BoldSpan>normfri.terapi@gmail.com</BoldSpan> if
+          me on <BoldSpan>normfriterapi@protonmail.com</BoldSpan> if
           you are interested in more information about therapy sessions in English.
         </TextPurple>
         <TextPurple>

@@ -26,7 +26,7 @@ export const InfoAccordionData = [
     topic: 'Kontakt',
     p1: 'Hvis du er interesseret i at komme i forløb hos mig er du velkommen til at række ud via ',
     p2: 'kontaktformularen',
-    p3: ' eller ved at sende en mail direkte til normfri.terapi@gmail.com',
+    p3: ' eller ved at sende en mail direkte til normfriterapi@protonmail.com',
     p4: 'Repræsenterer du en forening, er du fagperson, eller på anden vis mulig samarbejdspartner og interesseret i et kaffemøde eller eventuelt samarbejde er du også velkommen til at kontakte mig på overstående mailadresse.'
   }
 ]

@@ -1,29 +1,67 @@
 import React from 'react';
 import styled from 'styled-components/macro'
-import { Player } from '@lottiefiles/react-lottie-player'
-import animationData from 'lotties/not-found'
 import { Link } from 'react-router-dom';
-import { TextPurple, Header1, StyledButton } from './GlobalStyles';
+import { TextPurple, Header1, StyledButton, Header2 } from './GlobalStyles';
 
 export const Grupper = () => {
   return (
     <SectionWrapper>
       <Header1>Grupper</Header1>
       <ContentWrapper>
-        <PlayerWrapper>
-          <Player
-            autoplay
-            controls
-            loop
-            mode="normal"
-            src={animationData}
-            style={{ height: '100%', width: '100%' }} />
-        </PlayerWrapper>
+        <SubHeader>Fokus&shy;gruppe til ud&shy;vikling af queer&shy;-venlig terapi</SubHeader>
         <TextPurple>
-            Denne side er underopbygning<br />- der kommer snart mere information.
+          Minoritets&shy;stress, mar&shy;ginali&shy;se&shy;ring, u&shy;tryg&shy;hed og manglende
+          for&shy;ståelse fra
+          fag&shy;personer og sundheds&shy;væsenet – der er mange grunde til, at det kan være
+          svært som LGBT+ person at søge hjælp, selv når krisen kradser. Derfor er
+          det vigtigere end nogen&shy;sinde at udvikle norm&shy;kritisk, inter&shy;sektionel og
+          inkluderende terapi, der aktivt imøde&shy;kommer de behov, vi som mål&shy;gruppe har.
         </TextPurple>
-        <Button><StyledLink to="/ydelser">Tilbage til ydelser</StyledLink></Button>
+        <TextPurple>
+          I den for&shy;bindelse søger jeg en mindre gruppe af LGBT+ personer,
+          der gennem samtale&shy;terapi vil bidrage til mine refleksioner
+          om&shy;kring min praksis – og samtidig få et tera&shy;peutisk gruppe&shy;forløb
+          med andre LGBT+ personer ud af det, hvor der reflekteres over
+          og arbejdes med trivsel og mentalt vel&shy;være i fælles&shy;skab.
+        </TextPurple>
+        <TextPurple>
+          For at deltage, skal du…
+          <ul>
+            <li>
+                være LGBT+ person over 18 år.
+            </li>
+            <li>
+                kunne deltage i mindst 5 fælles workshops med en lille
+                gruppe andre deltagere.
+            </li>
+            <li>
+                have tidligere erfaring med at gå til psykolog,
+                terapeut eller psykiater – eller have holdt dig fra det,
+                fordi du ikke følte dig tryg.
+            </li>
+            <li>
+                have et ønske om at forbedre den hjælp, LGBT+ personer har adgang til. ♡
+            </li>
+          </ul>
+        </TextPurple>
+        <TextPurple>
+          Fordi du hjælper mig med min forskning og praksis får du 50% rabat på
+          hele forløbet + 50% rabat på 3 sessioner af individuel terapi.
+          Du betaler derfor kun 800 kr. i alt for hele gruppeforløbet + 325 kr.
+          per individuel samtale &#40;valgfrit&#41;.
+        </TextPurple>
+        <TextPurple>
+          Vil du skri&shy;ves op til en gruppe&shy;op&shy;start eller bare høre lidt
+          nær&shy;mere om for&shy;løb&shy;et, kan du kon&shy;takte mig på:
+        </TextPurple>
+        <Centered>
+          normfriterapi@protonmail.com
+        </Centered>
+        <Centered>
+          Jeg ser frem til at høre fra dig!
+        </Centered>
       </ContentWrapper>
+      <Button><StyledLink to="/ydelser">Tilbage til ydelser</StyledLink></Button>
     </SectionWrapper>
   )
 }
@@ -44,7 +82,7 @@ const SectionWrapper = styled.section`
 `
 
 const ContentWrapper = styled.div`
-  margin: 10px auto 50px auto;
+  margin: 40px auto 50px auto;
   width: 70%;
   min-width: 320px;
   max-width: 600px;
@@ -52,13 +90,16 @@ const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  text-align: center;
-  //hyphens: auto;
+  text-align: justify;
+  hyphens: auto;
 `
 
-const PlayerWrapper = styled.div`
-width: 260px;
-margin: auto;
+const SubHeader = styled(Header2)`
+  text-align: left;
+`
+
+const Centered = styled(TextPurple)`
+  text-align: center;
 `
 
 const Button = styled(StyledButton)`

@@ -11,7 +11,7 @@ export const Kontakt = () => {
         <TextPurple>
           Hvis du er interesseret i at komme i forløb hos mig er du velkommen til at række ud
           via kontaktformularen her eller ved at sende en mail
-          direkte til <BoldSpan>normfri.terapi@gmail.com</BoldSpan>
+          direkte til <BoldSpan>normfriterapi@protonmail.com</BoldSpan>
         </TextPurple>
         <TextPurple>
           Repræsenterer du en forening, er du fagperson, eller på anden vis mulig samarbejdspartner
